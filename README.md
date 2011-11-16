@@ -63,3 +63,10 @@
 * 演習問題：
     * [第8章](https://github.com/yuzutechnology/Community-StartHaskell2011/blob/master/exercises/chapter08/Chapter08-ja.md)（[英語版](https://github.com/yuzutechnology/Community-StartHaskell2011/blob/master/exercises/chapter08/Chapter08-en.md)）、[テスト](https://github.com/yuzutechnology/Community-StartHaskell2011/blob/master/exercises/chapter08/tests)、[答え](https://github.com/yuzutechnology/Community-StartHaskell2011/tree/master/exercises/chapter08/solutions)
     * [第9章](https://github.com/yuzutechnology/Community-StartHaskell2011/blob/master/exercises/chapter09/Chapter09-ja.md)（[英語版](https://github.com/yuzutechnology/Community-StartHaskell2011/blob/master/exercises/chapter09/Chapter09-en.md)）
+
+2011-12-03 第5回
+----------------
+
+* 読書：[プログラミングHaskell](http://www.amazon.co.jp/gp/product/4274067815/)の第10・11章
+* 補足：
+    * [第11章](https://github.com/yuzutechnology/Community-StartHaskell2011/blob/master/book/supplements/Chapter11-ja.md)（[英語版](https://github.com/yuzutechnology/Community-StartHaskell2011/blob/master/book/supplements/Chapter11-en.md)）
