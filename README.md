@@ -67,6 +67,7 @@
 2011-12-03 第5回
 ----------------
 
+* [ATND](http://atnd.org/events/22289)
 * 読書：[プログラミングHaskell](http://www.amazon.co.jp/gp/product/4274067815/)の第10・11章
 * 補足：
     * [第11章](https://github.com/yuzutechnology/Community-StartHaskell2011/blob/master/book/supplements/Chapter11-ja.md)（[英語版](https://github.com/yuzutechnology/Community-StartHaskell2011/blob/master/book/supplements/Chapter11-en.md)）
