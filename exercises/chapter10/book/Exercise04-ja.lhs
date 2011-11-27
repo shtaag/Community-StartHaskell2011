@@ -1,13 +1,12 @@
 「プログラミングHaskell」：第10章：問題4
 ========================================
 
-このファイルは文芸的プログラミングの形式で書いている。このファイルの中に関数を
-定義して、含まれているテストで
-確認せよ。
+このファイルは文芸的プログラミングの形式で書かれている。このファイルに関数を
+実装して、含まれているテストで確認せよ。
 
 「GHC 7.0.3」以上が必要。
 
-次のインポートを無視する。
+次のインポートは無視してよい。
 
 > -- base
 > import Control.Exception (ErrorCall(..), evaluate, handleJust)
@@ -69,10 +68,10 @@ Treeの定義
 >     assertBalance :: Tree -> [Int] -> Assertion
 >     assertBalance t l = assertEqual (show l) t (balance l)
 
-サポートのコード
+補助コード
 ----------------
 
-次の定義はテストの実行するための定義だ。以下のコードを無視する。
+次のものはテストの実行するための定義だ。これは無視してよい。
 
 > runTests :: [Test] -> IO Counts
 > runTests ts = runTestTT $ TestList ts
