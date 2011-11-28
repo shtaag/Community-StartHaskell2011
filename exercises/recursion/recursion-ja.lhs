@@ -27,7 +27,7 @@
     >     factorial' acc n | n < 2     = acc
     >                      | otherwise = factorial' (acc * n) (n - 1)
 
-次のモジュール定義とインポートを無視する。
+次のモジュール定義とインポートは無視して良い。
 
 > module Main (main) where
 >

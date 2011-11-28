@@ -37,8 +37,8 @@
     >     factorial' acc n | n < 2     = acc
     >                      | otherwise = factorial' (acc * n) (n - 1)
 
-｛次｝｛つぎ｝のモジュール｛定義｝｛ていぎ｝とインポートを｛無視｝｛むし｝
-する。
+｛次｝｛つぎ｝のモジュール｛定義｝｛ていぎ｝とインポートは
+｛無視｝｛むし｝して｛良｝｛よ｝い。
 
 > module Main (main) where
 >
