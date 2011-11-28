@@ -6,7 +6,7 @@
 
 「GHC 7.0.3」以上が必要。
 
-次のインポートは無視してよい。
+次のインポートは無視して良い。
 
 > -- base
 > import Control.Exception (ErrorCall(..), evaluate, handleJust)
@@ -69,9 +69,9 @@ Treeの定義
 >     assertBalance t l = assertEqual (show l) t (balance l)
 
 補助コード
-----------------
+----------
 
-次のものはテストの実行するための定義だ。これは無視してよい。
+次のものはテストの実行するための定義だ。これは無視して良い。
 
 > runTests :: [Test] -> IO Counts
 > runTests ts = runTestTT $ TestList ts
