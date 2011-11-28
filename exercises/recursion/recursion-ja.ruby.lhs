@@ -121,7 +121,7 @@ HUnitのパッケージを｛使｝｛つか｝って、テストも｛付｝｛
 > main :: IO Counts
 > main = runTests $ Prelude.concat tests
 
-｛次｝｛つぎ｝の｛定義｝｛ていぎ｝を｛無視｝｛むし｝する。
+｛次｝｛つぎ｝の｛定義｝｛ていぎ｝は｛無視｝｛むし｝して｛良｝｛よ｝い。
 
 > assertError :: String -> a -> Assertion
 > assertError msg x = handleJust errorCalls (const $ return ()) $ do

@@ -107,7 +107,7 @@ HUnitのパッケージを使って、テストも付いている。`cabal insta
 > main :: IO Counts
 > main = runTests $ Prelude.concat tests
 
-次の定義を無視する。
+次の定義は無視して良い。
 
 > assertError :: String -> a -> Assertion
 > assertError msg x = handleJust errorCalls (const $ return ()) $ do
