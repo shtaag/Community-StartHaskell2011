@@ -71,3 +71,23 @@
 * 読書：[プログラミングHaskell](http://www.amazon.co.jp/gp/product/4274067815/)の第10・11章
 * 補足：
     * [第11章](https://github.com/yuzutechnology/Community-StartHaskell2011/blob/master/book/supplements/Chapter11-ja.md)（[英語版](https://github.com/yuzutechnology/Community-StartHaskell2011/blob/master/book/supplements/Chapter11-en.md)）
+* 演習問題：
+    * 第10章：
+        * 本の練習問題のテスト：
+            * [第1問題](https://github.com/yuzutechnology/Community-StartHaskell2011/blob/master/exercises/chapter10/book/Exercise01-ja.lhs)、[英語版](https://github.com/yuzutechnology/Community-StartHaskell2011/blob/master/exercises/chapter10/book/Exercise01-en.lhs)
+            * [第2問題](https://github.com/yuzutechnology/Community-StartHaskell2011/blob/master/exercises/chapter10/book/Exercise02-ja.lhs)、[英語版](https://github.com/yuzutechnology/Community-StartHaskell2011/blob/master/exercises/chapter10/book/Exercise02-en.lhs)
+            * [第3問題](https://github.com/yuzutechnology/Community-StartHaskell2011/blob/master/exercises/chapter10/book/Exercise03-ja.lhs)、[英語版](https://github.com/yuzutechnology/Community-StartHaskell2011/blob/master/exercises/chapter10/book/Exercise03-en.lhs)
+            * [第4問題](https://github.com/yuzutechnology/Community-StartHaskell2011/blob/master/exercises/chapter10/book/Exercise04-ja.lhs)、[英語版](https://github.com/yuzutechnology/Community-StartHaskell2011/blob/master/exercises/chapter10/book/Exercise04-en.lhs)
+            * [第5問題](https://github.com/yuzutechnology/Community-StartHaskell2011/blob/master/exercises/chapter10/book/Exercise05-ja.lhs)、[英語版](https://github.com/yuzutechnology/Community-StartHaskell2011/blob/master/exercises/chapter10/book/Exercise05-en.lhs)
+            * [第7問題](https://github.com/yuzutechnology/Community-StartHaskell2011/blob/master/exercises/chapter10/book/Exercise07-ja.lhs)、[英語版](https://github.com/yuzutechnology/Community-StartHaskell2011/blob/master/exercises/chapter10/book/Exercise07-en.lhs)
+            * [第8問題](https://github.com/yuzutechnology/Community-StartHaskell2011/blob/master/exercises/chapter10/book/Exercise08-ja.lhs)、[英語版](https://github.com/yuzutechnology/Community-StartHaskell2011/blob/master/exercises/chapter10/book/Exercise08-en.lhs)
+        * 新しい練習問題：
+            * [RNetwork](https://github.com/yuzutechnology/Community-StartHaskell2011/blob/master/exercises/chapter10/RNetwork-ja.lhs)、[英語版](https://github.com/yuzutechnology/Community-StartHaskell2011/blob/master/exercises/chapter10/RNetwork-en.lhs)、[図](https://github.com/yuzutechnology/Community-StartHaskell2011/blob/master/exercises/chapter10/RNetwork.png)
+            * [TreeMap](https://github.com/yuzutechnology/Community-StartHaskell2011/blob/master/exercises/chapter10/TreeMap-ja.lhs)、[英語版](https://github.com/yuzutechnology/Community-StartHaskell2011/blob/master/exercises/chapter10/TreeMap-en.lhs)
+            * [UnMonad](https://github.com/yuzutechnology/Community-StartHaskell2011/blob/master/exercises/chapter10/UnMonad-ja.lhs)、[英語版](https://github.com/yuzutechnology/Community-StartHaskell2011/blob/master/exercises/chapter10/UnMonad-en.lhs)
+    * 第11章：
+        * 本の練習問題のテスト：
+            * [第1問題](https://github.com/yuzutechnology/Community-StartHaskell2011/blob/master/exercises/chapter11/book/Exercise01-ja.lhs)、[英語版](https://github.com/yuzutechnology/Community-StartHaskell2011/blob/master/exercises/chapter11/book/Exercise01-en.lhs)
+            * [第2問題](https://github.com/yuzutechnology/Community-StartHaskell2011/blob/master/exercises/chapter11/book/Exercise02-ja.lhs)、[英語版](https://github.com/yuzutechnology/Community-StartHaskell2011/blob/master/exercises/chapter11/book/Exercise02-en.lhs)
+        * 新しい練習問題：
+            * [CountUp](https://github.com/yuzutechnology/Community-StartHaskell2011/blob/master/exercises/chapter11/CountUp-ja.lhs)、[英語版](https://github.com/yuzutechnology/Community-StartHaskell2011/blob/master/exercises/chapter11/CountUp-en.lhs)
