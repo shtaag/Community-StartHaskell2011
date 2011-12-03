@@ -23,19 +23,10 @@ This data type is specialized to `Int` values; here is a polymorphic version:
 In this definition, the type variable `a` allows any type to be stored in a
 `Tree`, similar to how any type can be stored in a list.
 
-This form of tree has a significant problem, however.  What is it?
-
-    Since values must be stored in both nodes and leaves, it is impossible to
-    create a `Tree` with an even number of values.
-
 Consider the `Tree` definition on page 104 that only stores values in nodes:
 
 > data Tree a = Leaf | Node (Tree a) a (Tree a)
 >   deriving (Eq)
-
-Does this form of tree suffer from the same problem?
-
-    No, a `Tree` can be created for any number of values.
 
 Here are some test trees:
 
