@@ -92,9 +92,10 @@
         * 新しい練習問題：
             * [CountUp](https://github.com/yuzutechnology/Community-StartHaskell2011/blob/master/exercises/chapter11/CountUp-ja.lhs)、[英語版](https://github.com/yuzutechnology/Community-StartHaskell2011/blob/master/exercises/chapter11/CountUp-en.lhs)、[答え](https://github.com/yuzutechnology/Community-StartHaskell2011/blob/master/exercises/chapter11/solutions/CountUp-tcard.lhs)
 
-2012-01-?? 第6回
+2012-01-28 第6回
 ----------------
 
+* [ATND](http://atnd.org/events/23842)
 * 読書：[プログラミングHaskell](http://www.amazon.co.jp/gp/product/4274067815/)の第12・13章
 * 演習問題：
     * 第12章：
