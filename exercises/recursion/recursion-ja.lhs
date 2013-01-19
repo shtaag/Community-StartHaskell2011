@@ -58,7 +58,7 @@ HUnitのパッケージを使って、テストも付いている。`cabal insta
 
 > tests :: [[Test]]
 > tests = [
->   --  appendTests
+>     appendTests
 >   --, concatTests
 >   --, mapTests
 >   --, concatMapTests
@@ -96,8 +96,8 @@ HUnitのパッケージを使って、テストも付いている。`cabal insta
 >   --, breakTests
 >   --, unzipTests
 >   --, unzip3Tests
->   --, foldlTests
->   --, foldrTests
+>   , foldlTests
+>   , foldrTests
 >   --, scanlTests
 >   --, scanrTests
 >   ]
@@ -128,7 +128,10 @@ HUnitのパッケージを使って、テストも付いている。`cabal insta
 1. [(++)](http://haskell.org/ghc/docs/7.0-latest/html/libraries/base-4.3.1.0/Prelude.html#v:-43--43-)
 
 > (++) :: [a] -> [a] -> [a]
-> (++) = undefined
+> (++) xs ys = foldr (:) ys xs
+> -- (++) [] ys = ys
+> -- (++) xs [] = xs
+> -- (++) (x : xs) ys = x : (xs ++ ys)
 
 テストのコマンド： `runTests appendTests`
 
@@ -928,7 +931,8 @@ HUnitのパッケージを使って、テストも付いている。`cabal insta
 39. [foldl](http://haskell.org/ghc/docs/7.0-latest/html/libraries/base-4.3.1.0/Prelude.html#v:foldl)
 
 > foldl :: (a -> b -> a) -> a -> [b] -> a
-> foldl = undefined
+> foldl f x [] = x
+> foldl f x (y : ys) = foldl f (f x y) ys
 
 テストのコマンド： `runTests foldlTests`
 
@@ -943,7 +947,8 @@ HUnitのパッケージを使って、テストも付いている。`cabal insta
 40. [foldr](http://haskell.org/ghc/docs/7.0-latest/html/libraries/base-4.3.1.0/Prelude.html#v:foldr)
 
 > foldr :: (a -> b -> b) -> b -> [a] -> b
-> foldr = undefined
+> foldr f x [] = x
+> foldr f x (y : ys) = f y (foldr f x ys)
 
 テストのコマンド： `runTests foldrTests`
 
